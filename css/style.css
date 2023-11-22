@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family:montserrat;
+    src: url(../font/Montserrat-Regular.ttf) format(truetype);
+    font-weight:normal;
+    font-style:normal;
+   }
+@font-face {
+    font-family:aaron;
+    src: url(../home/font/SVN-AARON\ SCRIPT.OTF) format(opentype);
+    font-weight:normal;
+    font-style:normal;
+   }
+
+
+
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #b72025;
+	padding: 2vh 9vh;
+	color: white;
+	font-family: montserrat;
+	font-size: 1rem;
+	font-weight: 500;
+	height: 5vh;
+	overflow: hidden;
+}
+li:hover{
+	color: black;
+	cursor: pointer;
+}
+
+
+.content-main{
+	height: 91vh;
+	overflow: hidden;
+	display: flex;
+}
+.img-main{
+	width: 50%;
+	overflow: hidden;
+}
+.img-main-li{
+	height: 91vh;
+	/* overflow: hidden; */
+}
+.img-product{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content-com{
+	width: 50%;
+	padding-left: 3vw;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.logo-main{
+	background-color: #b72025;
+	width: 20vh;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
+#logo-com{
+	width: 100%;
+}
+.content-text{
+	max-width: 90%;
+	text-align: start;
+	margin-top: 3vh;
+	line-height: 2.7vh;
+	overflow-y: auto;
+}
+h1, p, h2, h3, h4, h5 {
+	font-family: montserrat;
+}
+h1{
+	color: #b72025;
+	font-size: 4vh;
+	font-weight: 500;
+	margin-bottom: 3vh;
+	line-height: 5vh;
+}
+.header, .body, h2, h3, h4, h5{
+	text-align: justify;
+	font-size: 1.1rem;
+}
+b, h2{
+	font-weight: 550;
+	color: #b72025;
+}
+h2{
+	font-size: 1.25rem;
+}
+.signature{
+	margin-top: 3vh;
+}
+h3{
+	font-style: italic;
+}
+h5{
+	font-weight: 550;
+	font-size: 1.2rem;
+}
+h4, h3, h5{
+	color: #b72025;
+}
+.menu-rs{
+	display: none;
+}
